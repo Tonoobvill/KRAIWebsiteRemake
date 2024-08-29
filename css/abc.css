@@ -1,1 +1,288 @@
+.top {
+    margin: 0;
+    margin-top: -50px;
+    overflow-x: hidden;
+    background: var(--krai-white) url(https://krai.neocities.org/img/KirklandRanch.webp) no-repeat 0 50px;
+    background-size: 100vw;
+    aspect-ratio: 16 / 9;
+}
 
+.top-text {
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw;
+    font-family: "neusa-next-std";
+    filter: drop-shadow(0 0 5px var(--krai-black));
+    text-align: center;
+    z-index: 1;
+    cursor: default
+}
+
+.top-text p1 {
+    color: var(--krai-white);
+    font-size: 100%
+}
+
+.top-text p2 {
+    color: var(--krai-red);
+    font-size: 50%
+}
+
+.icons {
+    display: grid;
+    grid-template: "construction biomedical diesel welding digital-media" "electricity patient-care automotive robotics cybersecurity";
+    justify-content: center;
+    gap: 30px
+}
+
+.icons .icon {
+    border: 3px solid var(--krai-red);
+    transition: all 0.1s ease-in-out;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    outline: none;
+}
+
+.icons .icon svg {
+    transition: all 0.1s ease-in-out;
+    min-width: 40px;
+    padding: 50 50 30 50;
+    fill: var(--krai-red);
+    height: 60;
+}
+
+.icons .icon span {
+    transition: all 0.1s ease-in-out;
+    position: absolute;
+    color: var(--krai-red);
+    font-family: "neusa-next-std";
+}
+
+.icons .icon .icon-text {
+    top: 15px
+}
+
+.icons .construction {
+    grid-area: construction
+}
+
+@media(hover: hover) {
+
+    .icons .construction:hover {
+        border-color: var(--building-trades);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .construction:hover svg {
+        transform: scale(1.1);
+        fill: var(--building-trades)
+    }
+
+    .icons .construction:hover span {
+        color: var(--building-trades)
+    }
+}
+
+.icons .electricity {
+    grid-area: electricity
+}
+
+@media(hover: hover) {
+
+    .icons .electricity:hover {
+        border-color: var(--building-trades);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .electricity:hover svg {
+        transform: scale(1.1);
+        fill: var(--building-trades)
+    }
+
+    .icons .electricity:hover span {
+        color: var(--building-trades)
+    }
+}
+
+.icons .digital-media {
+    grid-area: digital-media
+}
+
+@media(hover: hover) {
+
+    .icons .digital-media:hover {
+        border-color: var(--digital-media);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .digital-media:hover svg {
+        transform: scale(1.1);
+        fill: var(--digital-media)
+    }
+
+    .icons .digital-media:hover span {
+        color: var(--digital-media)
+    }
+}
+
+.icons .cybersecurity {
+    grid-area: cybersecurity
+}
+
+@media(hover: hover) {
+
+    .icons .cybersecurity:hover {
+        border-color: var(--digital-technology);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .cybersecurity:hover svg {
+        transform: scale(1.1);
+        fill: var(--digital-technology)
+    }
+
+    .icons .cybersecurity:hover span {
+        color: var(--digital-technology)
+    }
+}
+
+.icons .robotics {
+    grid-area: robotics
+}
+
+.icons .robotics .top {
+    top: 10px
+}
+
+.icons .robotics .top:nth-child(2) {
+    top: 30px;
+    color: var(--krai-gray);
+    font-size: 12px
+}
+
+@media(hover: hover) {
+
+    .icons .robotics:hover {
+        border-color: var(--engineering);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .robotics:hover svg {
+        transform: scale(1.1);
+        fill: var(--engineering)
+    }
+
+    .icons .robotics:hover span {
+        color: var(--engineering)
+    }
+}
+
+.icons .diesel {
+    grid-area: diesel
+}
+
+@media(hover: hover) {
+
+    .icons .diesel:hover {
+        border-color: var(--transportation);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .diesel:hover svg {
+        transform: scale(1.1);
+        fill: var(--transportation)
+    }
+
+    .icons .diesel:hover span {
+        color: var(--transportation)
+    }
+}
+
+.icons .welding {
+    grid-area: welding
+}
+
+@media(hover: hover) {
+
+    .icons .welding:hover {
+        border-color: var(--engineering);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .welding:hover svg {
+        transform: scale(1.1);
+        fill: var(--engineering)
+    }
+
+    .icons .welding:hover span {
+        color: var(--engineering)
+    }
+}
+
+.icons .biomedical {
+    grid-area: biomedical
+}
+
+@media(hover: hover) {
+
+    .icons .biomedical:hover {
+        border-color: var(--health-sciences);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .biomedical:hover svg {
+        transform: scale(1.1);
+        fill: var(--health-sciences)
+    }
+
+    .icons .biomedical:hover span {
+        color: var(--health-sciences)
+    }
+}
+
+.icons .patient-care {
+    grid-area: patient-care
+}
+
+@media(hover: hover) {
+
+    .icons .patient-care:hover {
+        border-color: var(--health-sciences);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .patient-care:hover svg {
+        transform: scale(1.1);
+        fill: var(--health-sciences)
+    }
+
+    .icons .patient-care:hover span {
+        color: var(--health-sciences)
+    }
+}
+
+.icons .automotive {
+    grid-area: automotive
+}
+
+@media(hover: hover) {
+
+    .icons .automotive:hover {
+        border-color: var(--transportation);
+        background-color: var(--krai-off-white)
+    }
+
+    .icons .automotive:hover svg {
+        transform: scale(1.1);
+        fill: var(--transportation)
+    }
+
+    .icons .automotive:hover span {
+        color: var(--transportation)
+    }
+}

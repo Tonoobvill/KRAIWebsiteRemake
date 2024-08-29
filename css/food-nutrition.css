@@ -1,0 +1,31 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.newsletter {
+    height: 580;
+    display:flex;
+    justify-content: center;
+}
+
+.newsletter img {
+    float: left;
+    margin-right: 5%;
+    width: 500;
+    border: 3px solid var(--krai-off-white)
+}
+
+.newsletter img:last-child {
+    margin-right: 0
+}
+
+
+.main {
+    height: 90vh;
+    padding: 12vh 0 8vh
+}
+
+.paragraph {
+    margin-top: 10px
+}

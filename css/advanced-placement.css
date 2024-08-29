@@ -1,0 +1,21 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.schedules {
+    height: 580;
+    display:flex;
+    justify-content: center;
+}
+
+.schedules img {
+    float: left;
+    margin-right: 5%;
+    width: 500;
+    border: 3px solid var(--krai-off-white)
+}
+
+.schedules img:last-child {
+    margin-right: 0
+}

@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+}
+
+strong {
+    font-weight: 700
+}
+
+.main table {
+    border: 1px solid var(--krai-off-white);
+    color: var(--krai-gray);
+    width: 90%;
+    margin: 10 auto;
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+.main tr td {
+    border-top: 1px solid var(--krai-off-white);
+    padding: 6px 24px
+}
+
+.table-sides {
+    width: 30%;
+    padding: 0;
+    color: var(--krai-black)
+}
+
+.table-middle {
+    width: 30%;
+    margin: 0 5%;
+    color: var(--krai-black)
+}

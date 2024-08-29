@@ -1,0 +1,63 @@
+h5 {
+    font-family: "neusa-next-std";
+    margin: 0;
+    font-size: 16px;
+}
+
+.programs {
+    margin-top: 20;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.programs p {
+    padding-bottom: 1em;
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+    color: var(--krai-gray);
+}
+
+.toggle {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.toggle img {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+    width: 50px;
+    height: 79px
+}
+
+.Building-Trades {
+    border: 2px solid var(--building-trades);
+    color: var(--building-trades)
+}
+
+.Digital-Media {
+    border: 2px solid var(--digital-media);
+    color: var(--digital-media)
+}
+
+.Digital-Technology {
+    border: 2px solid var(--digital-technology);
+    color: var(--digital-technology)
+}
+
+.Engineering {
+    border: 2px solid var(--engineering);
+    color: var(--engineering)
+}
+
+.Health-Sciences {
+    border: 2px solid var(--health-sciences);
+    color: var(--health-sciences)
+}
+
+.Transportation {
+    border: 2px solid var(--transportation);
+    color: var(--transportation)
+}
