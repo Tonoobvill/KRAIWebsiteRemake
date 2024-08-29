@@ -1,0 +1,17 @@
+{
+  "name": "Kirkland Ranch Academy of Innovation 2023-2024 Website Remake",
+  "short_name": "KRAI Remake",
+  "description": "A remake of the 2023-2024 Kirkland Ranch Academy of Innovation website.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#eeeeee",
+  "theme_color": "#af141d",
+  "icons": [
+    {
+        "src": "img/krai-logo.svg",
+        "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+        "type": "image/svg+xml",
+        "purpose": "any"
+    }
+  ]
+}
