@@ -4,7 +4,7 @@
   "description": "A remake of the 2023-2024 Kirkland Ranch Academy of Innovation website.",
   "start_url": "/index.html",
   "display": "standaIlone",
-  "lang": "en"
+  "lang": "en",
   "background_color": "#eeeeee",
   "theme_color": "#af141d",
   "icons": [
