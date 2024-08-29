@@ -147,7 +147,7 @@ a {
     background: var(--krai-white);
     width: 80%;
     margin: auto;
-    padding: 50 0;
+    padding: 50px 0px;
 }
 
 .main1 {
@@ -181,16 +181,16 @@ a {
 
 .section-header {
     margin: 0;
-    font-size: 30;
-    padding: 30 30 0;
+    font-size: 30ox;
+    padding: 30px 30px 0px;
     font-family: "neusa-next-std";
     color: var(--krai-red);
 }
 
 .sub-header {
     margin: 0;
-    font-size: 20;
-    padding: 30 30 0;
+    font-size: 20px;
+    padding: 30px 30px 0px;
     font-family: "neusa-next-std";
     color: var(--krai-red);
 }
