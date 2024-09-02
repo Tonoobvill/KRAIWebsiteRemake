@@ -167,7 +167,7 @@
 .schedule {
     margin: 0 auto 20;
     font-family: "neusa-next-std";
-    color: var(--krai-red);
+    color: var(--krai-black);
 }
 
 .schedule tr td {
@@ -190,14 +190,14 @@
 }
 
 .map {
-    margin: 0 auto 20;
+    margin: 0 auto 20px;
     font-family: "neusa-next-std";
     color: var(--krai-red);
 }
 
 #map {
     width: 60%;
-    margin: 10 20%;
+    margin: 10px 20%;
     border-radius: 10px;
     border: 3px solid var(--krai-gray)5;
 }
